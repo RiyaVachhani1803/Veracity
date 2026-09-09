@@ -1,0 +1,25 @@
+# Project Veracity v2.0 — Python dependencies
+# Install: pip install -r requirements.txt
+
+# ── Web framework ──────────────────────────────────────────────────────────────
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+
+# ── HTTP client (async streaming) ─────────────────────────────────────────────
+httpx==0.27.2
+
+# ── Data validation ────────────────────────────────────────────────────────────
+pydantic==2.8.2
+python-dotenv==1.0.1
+
+# ── ML / NLP ──────────────────────────────────────────────────────────────────
+transformers==4.44.2
+torch==2.4.1
+sentence-transformers==3.0.1
+
+# ── Vector database ────────────────────────────────────────────────────────────
+chromadb==0.5.5
+
+# ── PDF parsing ───────────────────────────────────────────────────────────────
+pypdf==4.3.1
